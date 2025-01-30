@@ -1,0 +1,920 @@
+﻿2024-12-10 02:54:18.784 [Debug] 10403 - Entity Framework Core 7.0.11 initialized 'SqliteLoggingContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.11' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:18.805 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:18.805 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:18.805 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:18.805 [Debug] 20004 - An error occurred using the connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:18.805 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:18.805 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20004 - An error occurred using the connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20004 - An error occurred using the connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.620 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20004 - An error occurred using the connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.621 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20400 - Migrating using database 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.622 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.624 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.624 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.624 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.624 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Info] 20101 - Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20301 - Closing data reader to 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.641 [Debug] 20300 - A data reader for 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.642 [Info] 20402 - Applying migration '20191118024649_RequestLogs'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20209 - Beginning transaction with isolation level 'Unspecified'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20200 - Began transaction with isolation level 'Serializable'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "RequestLogs" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_RequestLogs" PRIMARY KEY,
+    "Time" TEXT NOT NULL,
+    "Level" INTEGER NOT NULL,
+    "Method" TEXT NULL,
+    "StatusCode" INTEGER NOT NULL,
+    "StatusMessage" TEXT NULL,
+    "Uri" TEXT NULL,
+    "RequestHeaders" TEXT NULL,
+    "ResponseHeaders" TEXT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "RequestLogs" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_RequestLogs" PRIMARY KEY,
+    "Time" TEXT NOT NULL,
+    "Level" INTEGER NOT NULL,
+    "Method" TEXT NULL,
+    "StatusCode" INTEGER NOT NULL,
+    "StatusMessage" TEXT NULL,
+    "Uri" TEXT NULL,
+    "RequestHeaders" TEXT NULL,
+    "ResponseHeaders" TEXT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.643 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20191118024649_RequestLogs', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.644 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20191118024649_RequestLogs', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.644 [Debug] 20210 - Committing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.652 [Debug] 20202 - Committed transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.652 [Debug] 20204 - Disposing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.652 [Info] 20402 - Applying migration '20201119230003_AddUserActivityHistory'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20209 - Beginning transaction with isolation level 'Unspecified'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20200 - Began transaction with isolation level 'Serializable'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "UserActivityHistory" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_UserActivityHistory" PRIMARY KEY,
+    "TimeStamp" TEXT NOT NULL,
+    "UserId" TEXT NOT NULL,
+    "PlayerId" TEXT NULL,
+    "Action" INTEGER NOT NULL,
+    "Peer" INTEGER NOT NULL,
+    "Ip" TEXT NULL,
+    "Meta" TEXT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "UserActivityHistory" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_UserActivityHistory" PRIMARY KEY,
+    "TimeStamp" TEXT NOT NULL,
+    "UserId" TEXT NOT NULL,
+    "PlayerId" TEXT NULL,
+    "Action" INTEGER NOT NULL,
+    "Peer" INTEGER NOT NULL,
+    "Ip" TEXT NULL,
+    "Meta" TEXT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20201119230003_AddUserActivityHistory', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20201119230003_AddUserActivityHistory', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.654 [Debug] 20210 - Committing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.736 [Debug] 20202 - Committed transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.736 [Debug] 20204 - Disposing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.736 [Info] 20402 - Applying migration '20210414222302_AddedChatLogging'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20209 - Beginning transaction with isolation level 'Unspecified'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20200 - Began transaction with isolation level 'Serializable'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "ChatHistory" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_ChatHistory" PRIMARY KEY,
+    "UserId" TEXT NOT NULL,
+    "PlayerId" TEXT NOT NULL,
+    "Ip" TEXT NULL,
+    "TimeStamp" TEXT NOT NULL,
+    "MessageType" INTEGER NOT NULL,
+    "MessageText" TEXT NULL,
+    "TargetId" TEXT NOT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "ChatHistory" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_ChatHistory" PRIMARY KEY,
+    "UserId" TEXT NOT NULL,
+    "PlayerId" TEXT NOT NULL,
+    "Ip" TEXT NULL,
+    "TimeStamp" TEXT NOT NULL,
+    "MessageType" INTEGER NOT NULL,
+    "MessageText" TEXT NULL,
+    "TargetId" TEXT NOT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20210414222302_AddedChatLogging', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20210414222302_AddedChatLogging', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.738 [Debug] 20210 - Committing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.748 [Debug] 20202 - Committed transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.748 [Debug] 20204 - Disposing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.749 [Info] 20402 - Applying migration '20210515114555_LogPlayerTrades'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.750 [Debug] 20209 - Beginning transaction with isolation level 'Unspecified'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.750 [Debug] 20200 - Began transaction with isolation level 'Serializable'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.750 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.750 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.750 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.750 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "TradeHistory" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_TradeHistory" PRIMARY KEY,
+    "TradeId" TEXT NOT NULL,
+    "UserId" TEXT NOT NULL,
+    "PlayerId" TEXT NOT NULL,
+    "Ip" TEXT NULL,
+    "TimeStamp" TEXT NOT NULL,
+    "TargetId" TEXT NOT NULL,
+    "Items" TEXT NULL,
+    "TargetItems" TEXT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.751 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "TradeHistory" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_TradeHistory" PRIMARY KEY,
+    "TradeId" TEXT NOT NULL,
+    "UserId" TEXT NOT NULL,
+    "PlayerId" TEXT NOT NULL,
+    "Ip" TEXT NULL,
+    "TimeStamp" TEXT NOT NULL,
+    "TargetId" TEXT NOT NULL,
+    "Items" TEXT NULL,
+    "TargetItems" TEXT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.751 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.751 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.751 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.751 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20210515114555_LogPlayerTrades', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.751 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20210515114555_LogPlayerTrades', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.751 [Debug] 20210 - Committing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.761 [Debug] 20202 - Committed transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.762 [Debug] 20204 - Disposing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.762 [Info] 20402 - Applying migration '20210519095613_AddGuildActivityLogging'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.763 [Debug] 20209 - Beginning transaction with isolation level 'Unspecified'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.763 [Debug] 20200 - Began transaction with isolation level 'Serializable'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.763 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.763 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.764 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.764 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "GuildHistory" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_GuildHistory" PRIMARY KEY,
+    "GuildId" TEXT NOT NULL,
+    "UserId" TEXT NOT NULL,
+    "PlayerId" TEXT NOT NULL,
+    "Ip" TEXT NULL,
+    "TimeStamp" TEXT NOT NULL,
+    "Type" INTEGER NOT NULL,
+    "Meta" TEXT NULL,
+    "InitiatorId" TEXT NOT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.764 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "GuildHistory" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_GuildHistory" PRIMARY KEY,
+    "GuildId" TEXT NOT NULL,
+    "UserId" TEXT NOT NULL,
+    "PlayerId" TEXT NOT NULL,
+    "Ip" TEXT NULL,
+    "TimeStamp" TEXT NOT NULL,
+    "Type" INTEGER NOT NULL,
+    "Meta" TEXT NULL,
+    "InitiatorId" TEXT NOT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.764 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.764 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.764 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.764 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20210519095613_AddGuildActivityLogging', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.764 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20210519095613_AddGuildActivityLogging', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.764 [Debug] 20210 - Committing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.772 [Debug] 20202 - Committed transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.772 [Debug] 20204 - Disposing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.772 [Info] 20402 - Applying migration '20230930000000_Net7Upgrade'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20209 - Beginning transaction with isolation level 'Unspecified'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20200 - Began transaction with isolation level 'Serializable'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "ef_temp_RequestLogs" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_RequestLogs" PRIMARY KEY,
+    "Level" INTEGER NOT NULL,
+    "Method" TEXT NULL,
+    "RequestHeaders" TEXT NULL,
+    "ResponseHeaders" TEXT NULL,
+    "StatusCode" INTEGER NOT NULL,
+    "StatusMessage" TEXT NULL,
+    "Time" TEXT NOT NULL,
+    "Uri" TEXT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "ef_temp_RequestLogs" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_RequestLogs" PRIMARY KEY,
+    "Level" INTEGER NOT NULL,
+    "Method" TEXT NULL,
+    "RequestHeaders" TEXT NULL,
+    "ResponseHeaders" TEXT NULL,
+    "StatusCode" INTEGER NOT NULL,
+    "StatusMessage" TEXT NULL,
+    "Time" TEXT NOT NULL,
+    "Uri" TEXT NULL
+);
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "ef_temp_RequestLogs" ("Id", "Level", "Method", "RequestHeaders", "ResponseHeaders", "StatusCode", "StatusMessage", "Time", "Uri")
+SELECT "Id", "Level", "Method", "RequestHeaders", "ResponseHeaders", "StatusCode", "StatusMessage", "Time", "Uri"
+FROM "RequestLogs";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "ef_temp_RequestLogs" ("Id", "Level", "Method", "RequestHeaders", "ResponseHeaders", "StatusCode", "StatusMessage", "Time", "Uri")
+SELECT "Id", "Level", "Method", "RequestHeaders", "ResponseHeaders", "StatusCode", "StatusMessage", "Time", "Uri"
+FROM "RequestLogs";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.774 [Debug] 20210 - Committing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20202 - Committed transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20204 - Disposing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20209 - Beginning transaction with isolation level 'Unspecified'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20200 - Began transaction with isolation level 'Serializable'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.783 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+DROP TABLE "RequestLogs";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.784 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+DROP TABLE "RequestLogs";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.784 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.784 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.784 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.784 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE "ef_temp_RequestLogs" RENAME TO "RequestLogs";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.784 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE "ef_temp_RequestLogs" RENAME TO "RequestLogs";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.784 [Debug] 20210 - Committing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.871 [Debug] 20202 - Committed transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.871 [Debug] 20204 - Disposing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.871 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.871 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.871 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.871 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.871 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.871 [Debug] 20209 - Beginning transaction with isolation level 'Unspecified'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.872 [Debug] 20200 - Began transaction with isolation level 'Serializable'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.872 [Debug] 20103 - Creating DbCommand for 'ExecuteNonQuery'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.872 [Debug] 20104 - Created DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.872 [Debug] 20106 - Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.872 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230930000000_Net7Upgrade', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.872 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230930000000_Net7Upgrade', '7.0.11');
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.872 [Debug] 20210 - Committing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.882 [Debug] 20202 - Committed transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.882 [Debug] 20204 - Disposing transaction.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.882 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.882 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.882 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20301 - Closing data reader to 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20300 - A data reader for 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.883 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.884 [Debug] 20301 - Closing data reader to 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.884 [Debug] 20300 - A data reader for 'main' on server 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server\resources\logging.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.884 [Debug] 10407 - 'SqliteLoggingContext' disposed.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.884 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:22.884 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------

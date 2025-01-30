@@ -1,0 +1,128 @@
+﻿2024-12-10 02:54:23.487 [Info] Discovered service type: Intersect.Plugins.PluginService
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:23.488 [Info] Discovered service type: Intersect.Server.Core.LogicService
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:23.489 [Info] Discovered service type: Intersect.Server.Web.ApiService
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:23.489 [Info] Discovered service type: Intersect.Server.Core.ConsoleService
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:23.501 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:23.501 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+InvalidPortCheckerResponse
+
+--------------------------------------------------------------------------------
+Port 5400 is not open, trying UPnP...
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Succeeded.
+
+--------------------------------------------------------------------------------
+Failed to automatically port forward UDP port 5400 using UPnP. UPnP might be disabled in your router settings, or this port might already be forwarded.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:27.121 [Warn] UPnP Could Not Open UDP Port 5400
+System.InvalidOperationException: The response is invalid: GetSpecificPortMappingEntryResponse
+   at Open.Nat.ResponseMessageBase.GetNode()
+   at Open.Nat.GetPortMappingEntryResponseMessage..ctor(XmlDocument response, String serviceType, Boolean genericMapping)
+   at Open.Nat.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort)
+   at Intersect.Server.Networking.Helpers.UpnP.OpenServerPort(Int32 port, Protocol protocol) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server\Networking\Helpers\UPnP.cs:line 55
+
+--------------------------------------------------------------------------------
+UPnP failed. Please verify the server status manually using a client.
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:27.144 [Info] Unpacking appsettings...
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:27.154 [Info] Unpacking 'appsettings.json' in C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:27.155 [Info] Unpacking 'appsettings.Production.json' in C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Server
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:43.233 [Info] Connection approved [e5f0b9e4-77fe-4c10-bd69-035303d6b12b].
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:43.234 [Info] Connected [e5f0b9e4-77fe-4c10-bd69-035303d6b12b].
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:53.072 [Info] Connection approved [c71d106b-1e94-4d11-ba26-eeabd7c4de5f].
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:53.072 [Info] Connected [c71d106b-1e94-4d11-ba26-eeabd7c4de5f].
+
+--------------------------------------------------------------------------------
+2024-12-10 02:57:57.621 [Info] Disconnected [e5f0b9e4-77fe-4c10-bd69-035303d6b12b].
+
+--------------------------------------------------------------------------------
+2024-12-10 02:58:48.942 [Info] Connection approved [65b8294c-3e49-42f3-8d95-34afe5e98405].
+
+--------------------------------------------------------------------------------
+2024-12-10 02:58:48.942 [Info] Connected [65b8294c-3e49-42f3-8d95-34afe5e98405].
+
+--------------------------------------------------------------------------------
+2024-12-10 02:58:48.973 [Warn] RIEP: 65b8294c-3e49-42f3-8d95-34afe5e98405 Error
+
+--------------------------------------------------------------------------------
+2024-12-10 02:58:48.973 [Warn] FPIM: 127.0.0.1:64442 / 65b8294c-3e49-42f3-8d95-34afe5e98405
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.590 [Error] Received unhandled exception from System.Threading.Thread: Object reference not set to an instance of an object.
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.591 [Error] NullReferenceException: Object reference not set to an instance of an object.
+    Stack:    at Intersect.Server.Entities.Player.Update(Int64 timeMs) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server.Core\Entities\Player.cs:line 907
+   at Intersect.Server.Maps.MapInstance.UpdateEntities(Int64 timeMs) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server.Core\Maps\MapInstance.cs:line 1304
+   at Intersect.Server.Maps.MapInstance.Update(Int64 timeMs) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server.Core\Maps\MapInstance.cs:line 281
+   at Intersect.Server.Core.LogicService.LogicThread.UpdateMap(MapInstance mapInstance, Boolean onlyProjectiles) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server.Core\Core\LogicService.LogicThread.cs:line 403
+
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.595 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.595 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.596 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.597 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.598 [Info] Disconnected [65b8294c-3e49-42f3-8d95-34afe5e98405].
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.598 [Info] Disconnected [c71d106b-1e94-4d11-ba26-eeabd7c4de5f].
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.616 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.616 [Info] Saving online users/players... (19ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.616 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.616 [Info] Online users/players saved. (19ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.616 [Info] Shutting down the console thread... (19ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:07.631 [Info] Base dispose. (1034ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:07.632 [Info] Finished disposing server context. (1034ms)
+
+--------------------------------------------------------------------------------

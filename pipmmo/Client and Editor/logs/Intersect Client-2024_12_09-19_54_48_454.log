@@ -1,0 +1,103 @@
+﻿2024-12-10 02:54:48.525 [Info] Discovered service type: Intersect.Plugins.PluginService
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:48.533 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:48.534 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:48.761 [Warn] FileNotFoundException: Could not find file 'C:\Users\Hanst\OneDrive\Desktop\TrauzeRPG\pipmmo\Client and Editor\resources\client_strings.json'.
+    Stack:    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at Intersect.Client.Localization.Strings.Load() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Client.Core\Localization\Strings.cs:line 110
+
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:53.067 [Info] Connecting to 127.0.0.1:5400...
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:53.073 [Info] Connected [a97b1bed-6093-4c77-ad2b-363168408c69].
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:53.087 [Info] Connection approved [a97b1bed-6093-4c77-ad2b-363168408c69].
+
+--------------------------------------------------------------------------------
+2024-12-10 02:54:53.126 [Warn] Missing strings, overwriting strings file:
+	Chatbox.ChatTabButtons (string dictionary)
+
+--------------------------------------------------------------------------------
+2024-12-10 02:55:15.068 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2024-12-10 03:06:49.782 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2024-12-10 03:06:49.788 [Warn] 'GameUi' is null.
+
+--------------------------------------------------------------------------------
+2024-12-10 03:10:11.798 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2024-12-10 03:10:11.801 [Warn] 'GameUi' is null.
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.601 [Info] Disconnected [a97b1bed-6093-4c77-ad2b-363168408c69].
+
+--------------------------------------------------------------------------------
+2024-12-10 04:21:44.725 [Info] Connecting to 127.0.0.1:5400...
+
+--------------------------------------------------------------------------------
+2024-12-10 04:21:44.728 [Info] Connected [79dbe6bf-eb26-47f5-8f5a-e231be2eea1f].
+
+--------------------------------------------------------------------------------
+2024-12-10 04:21:44.734 [Info] Connection approved [79dbe6bf-eb26-47f5-8f5a-e231be2eea1f].
+
+--------------------------------------------------------------------------------
+2024-12-10 04:21:44.738 [Warn] Missing strings, overwriting strings file:
+	Chatbox.ChatTabButtons[All],
+	Chatbox.ChatTabButtons[Local],
+	Chatbox.ChatTabButtons[Party],
+	Chatbox.ChatTabButtons[Global],
+	Chatbox.ChatTabButtons[Guild],
+	Chatbox.ChatTabButtons[System]
+
+--------------------------------------------------------------------------------
+2024-12-10 04:21:51.984 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.690 [Info] System window closing (due to user interaction most likely).
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.691 [Info] Disconnected [79dbe6bf-eb26-47f5-8f5a-e231be2eea1f].
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.718 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.718 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.718 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.718 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.718 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.718 [Info] Clearing instance... (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.718 [Info] Releasing context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2024-12-10 04:22:25.718 [Info] Released. (0ms)
+
+--------------------------------------------------------------------------------

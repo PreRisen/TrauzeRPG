@@ -1,0 +1,11 @@
+﻿2024-12-10 03:15:06.590 [Error] Received unhandled exception from System.Threading.Thread: Object reference not set to an instance of an object.
+
+--------------------------------------------------------------------------------
+2024-12-10 03:15:06.593 [Error] NullReferenceException: Object reference not set to an instance of an object.
+    Stack:    at Intersect.Server.Entities.Player.Update(Int64 timeMs) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server.Core\Entities\Player.cs:line 907
+   at Intersect.Server.Maps.MapInstance.UpdateEntities(Int64 timeMs) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server.Core\Maps\MapInstance.cs:line 1304
+   at Intersect.Server.Maps.MapInstance.Update(Int64 timeMs) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server.Core\Maps\MapInstance.cs:line 281
+   at Intersect.Server.Core.LogicService.LogicThread.UpdateMap(MapInstance mapInstance, Boolean onlyProjectiles) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server.Core\Core\LogicService.LogicThread.cs:line 403
+
+
+--------------------------------------------------------------------------------
