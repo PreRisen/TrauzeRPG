@@ -8,4 +8,9 @@ Tiers of Foods.
 
 Level Cap start off 10 for balancing reasons.
 
-Simple.
+Want there to be a grind, but casually. We can start off with beginner equipment and there could be new armors introduced every 5 levels or so.
+since cap will be 10 we can start small and progressively add more and more.
+
+Not sure if there should be classes or player can equip anything. It'd probably be best for classes to give players specific roles when completing group
+content.
+
