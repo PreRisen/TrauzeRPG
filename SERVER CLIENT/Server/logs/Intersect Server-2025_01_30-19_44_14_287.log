@@ -1,0 +1,96 @@
+﻿2025-01-31 02:44:15.697 [Info] Discovered service type: Intersect.Plugins.PluginService
+
+--------------------------------------------------------------------------------
+2025-01-31 02:44:15.697 [Info] Discovered service type: Intersect.Server.Core.LogicService
+
+--------------------------------------------------------------------------------
+2025-01-31 02:44:15.698 [Info] Discovered service type: Intersect.Server.Web.ApiService
+
+--------------------------------------------------------------------------------
+2025-01-31 02:44:15.698 [Info] Discovered service type: Intersect.Server.Core.ConsoleService
+
+--------------------------------------------------------------------------------
+2025-01-31 02:44:15.710 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2025-01-31 02:44:15.710 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+InvalidPortCheckerResponse
+
+--------------------------------------------------------------------------------
+Port 5400 is not open, trying UPnP...
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Succeeded.
+
+--------------------------------------------------------------------------------
+Failed to automatically port forward UDP port 5400 using UPnP. UPnP might be disabled in your router settings, or this port might already be forwarded.
+
+--------------------------------------------------------------------------------
+2025-01-31 02:44:19.354 [Warn] UPnP Could Not Open UDP Port 5400
+System.InvalidOperationException: The response is invalid: GetSpecificPortMappingEntryResponse
+   at Open.Nat.ResponseMessageBase.GetNode()
+   at Open.Nat.GetPortMappingEntryResponseMessage..ctor(XmlDocument response, String serviceType, Boolean genericMapping)
+   at Open.Nat.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort)
+   at Intersect.Server.Networking.Helpers.UpnP.OpenServerPort(Int32 port, Protocol protocol) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server\Networking\Helpers\UPnP.cs:line 55
+
+--------------------------------------------------------------------------------
+UPnP failed. Please verify the server status manually using a client.
+
+--------------------------------------------------------------------------------
+2025-01-31 02:44:19.380 [Info] Unpacking appsettings...
+
+--------------------------------------------------------------------------------
+2025-01-31 02:44:23.034 [Info] Connection approved [81f83faa-f04a-457d-8b31-073727ec2bb1].
+
+--------------------------------------------------------------------------------
+2025-01-31 02:44:23.034 [Info] Connected [81f83faa-f04a-457d-8b31-073727ec2bb1].
+
+--------------------------------------------------------------------------------
+2025-01-31 02:47:07.219 [Info] Connection approved [c46461aa-fc73-461f-a170-4520501efa37].
+
+--------------------------------------------------------------------------------
+2025-01-31 02:47:07.219 [Info] Connected [c46461aa-fc73-461f-a170-4520501efa37].
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:28.801 [Info] Disconnected [81f83faa-f04a-457d-8b31-073727ec2bb1].
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:31.893 [Info] Disconnected [c46461aa-fc73-461f-a170-4520501efa37].
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:41.560 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:41.560 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:41.561 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:41.562 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:41.563 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:41.563 [Info] Saving online users/players... (0ms)
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:41.563 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:41.563 [Info] Online users/players saved. (1ms)
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:41.563 [Info] Shutting down the console thread... (1ms)
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:42.568 [Info] Base dispose. (1006ms)
+
+--------------------------------------------------------------------------------
+2025-01-31 03:34:42.568 [Info] Finished disposing server context. (1006ms)
+
+--------------------------------------------------------------------------------

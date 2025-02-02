@@ -1,0 +1,1246 @@
+﻿2025-01-31 00:13:35.955 [Debug] 10607 - No relationship from 'BagSlot' to 'Bag' has been configured by convention because there are multiple properties on one entity type - {'Bag', 'ParentBag'} that could be matched with the properties on the other entity type - {'Slots'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.958 [Debug] 10607 - No relationship from 'Bag' to 'BagSlot' has been configured by convention because there are multiple properties on one entity type - {'Slots'} that could be matched with the properties on the other entity type - {'Bag', 'ParentBag'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.959 [Debug] 10607 - No relationship from 'Ban' to 'User' has been configured by convention because there are multiple properties on one entity type - {'User'} that could be matched with the properties on the other entity type - {'Ban', 'IpBan', 'UserBan'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.961 [Debug] 10607 - No relationship from 'Mute' to 'User' has been configured by convention because there are multiple properties on one entity type - {'User'} that could be matched with the properties on the other entity type - {'IpMute', 'Mute', 'UserMute'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.962 [Debug] 10607 - No relationship from 'Friend' to 'Player' has been configured by convention because there are multiple properties on one entity type - {'Owner', 'Target'} that could be matched with the properties on the other entity type - {'Friends'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.967 [Debug] 10607 - No relationship from 'Player' to 'Friend' has been configured by convention because there are multiple properties on one entity type - {'Friends'} that could be matched with the properties on the other entity type - {'Owner', 'Target'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.968 [Debug] 10607 - No relationship from 'User' to 'Ban' has been configured by convention because there are multiple properties on one entity type - {'Ban'} that could be matched with the properties on the other entity type - {'User'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.968 [Debug] 10607 - No relationship from 'User' to 'Mute' has been configured by convention because there are multiple properties on one entity type - {'Mute'} that could be matched with the properties on the other entity type - {'User'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.987 [Debug] 10607 - No relationship from 'User' to 'Mute' has been configured by convention because there are multiple properties on one entity type - {'Mute'} that could be matched with the properties on the other entity type - {'User'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.996 [Debug] 10607 - No relationship from 'Player' to 'Friend' has been configured by convention because there are multiple properties on one entity type - {'Friends'} that could be matched with the properties on the other entity type - {'Owner', 'Target'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:35.997 [Debug] 10607 - No relationship from 'Friend' to 'Player' has been configured by convention because there are multiple properties on one entity type - {'Owner', 'Target'} that could be matched with the properties on the other entity type - {'Friends'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.002 [Debug] 10607 - No relationship from 'Bag' to 'BagSlot' has been configured by convention because there are multiple properties on one entity type - {'Slots'} that could be matched with the properties on the other entity type - {'Bag', 'ParentBag'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.002 [Debug] 10607 - No relationship from 'BagSlot' to 'Bag' has been configured by convention because there are multiple properties on one entity type - {'Bag', 'ParentBag'} that could be matched with the properties on the other entity type - {'Slots'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.014 [Debug] 10600 - The property 'Friend.OwnerId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.014 [Debug] 10600 - The property 'Friend.TargetId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.014 [Debug] 10600 - The property 'Player.DbGuildId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.031 [Debug] 10403 - Entity Framework Core 7.0.11 initialized 'SqlitePlayerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.11' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.113 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.113 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.113 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.113 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.113 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.114 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.115 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.122 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.124 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.125 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.126 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.127 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.128 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.129 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20002 - Closing connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.130 [Debug] 20003 - Closed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.133 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.133 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.163 [Debug] 10403 - Entity Framework Core 7.0.11 initialized 'SqlitePlayerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.11' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.163 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.163 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 10407 - 'SqlitePlayerContext' disposed.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.165 [Debug] 20000 - Opening connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20001 - Opened connection to database 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20301 - Closing data reader to 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.166 [Debug] 20300 - A data reader for 'main' on server 'E:\2DMMORPG\TrauzeRPG\pipmmo\Server\resources\playerdata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.167 [Debug] 10407 - 'SqlitePlayerContext' disposed.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.167 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\playerdata.db'.
+
+--------------------------------------------------------------------------------
+2025-01-31 00:13:36.167 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\playerdata.db' (0ms).
+
+--------------------------------------------------------------------------------
