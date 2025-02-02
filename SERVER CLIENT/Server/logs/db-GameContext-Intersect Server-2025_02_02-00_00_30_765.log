@@ -1,0 +1,3 @@
+﻿2025-02-02 07:00:31.033 [Debug] 10409 - An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration added for 'Core:UseMemoryCache', configuration added for 'Core:EnableSensitiveDataLogging', configuration added for 'Core:EnableDetailedErrors', configuration added for 'Core:EnableThreadSafetyChecks', configuration added for 'Core:ConfigureWarnings', configuration added for 'Core:ReplaceService:Microsoft.EntityFrameworkCore.Infrastructure.IModelCacheKeyFactory', configuration added for 'Sqlite'.
+
+--------------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 {
-  "GameName": "TrauzeRPG",
+  "GameName": "Melvor RPG",
   "ServerPort": 5400,
   "AdminOnly": false,
   "BlockClientRegistrations": false,
@@ -157,7 +157,7 @@
     "HotbarSlotCount": 10,
     "InitialBankslots": 100,
     "ItemDropChance": 0,
-    "MaxCharacters": 1,
+    "MaxCharacters": 2,
     "MaxInventory": 35,
     "MaxLevel": 10,
     "MaxSpells": 35,
