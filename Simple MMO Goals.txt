@@ -14,3 +14,39 @@ since cap will be 10 we can start small and progressively add more and more.
 Not sure if there should be classes or player can equip anything. It'd probably be best for classes to give players specific roles when completing group
 content.
 
+[1]----------------------------------------------------------------------------------------------[1]
+
+How many classes? 
+
+merc/pet system.
+
+Class design/planning.
+
+Floor/map design - starting area.
+
+Dungeon with 2-3 areas inside, progressing from uhmm story and getting a weapon to killing an elite.
+
+Exit dungeon, go into snowy area. Travel through the snow couple tiles into the first city. Get to the city (starting city). Shops, missions.
+
+Town hubs, class upgrades. Linear hub progression. Hubs can have class trials to advance in class and or stat/item advances.
+
+
+
+[spawn]---> [killing mobs] ----> [Kill Elite] ----> [First biome, snow] ----> [First Hub]
+
+
+[1]----------------------------------------------------------------------------------------------[1]
+
+
+
+
+[2]----------------------------------------------------------------------------------------------[2]
+
+[First Hub] ----> [level 1-10 area, snow] ----> [back to 1st hub] ----> [10-20 area, snow/caves/mountains]
+
+
+ 
+
+[2]----------------------------------------------------------------------------------------------[2]
+
+
