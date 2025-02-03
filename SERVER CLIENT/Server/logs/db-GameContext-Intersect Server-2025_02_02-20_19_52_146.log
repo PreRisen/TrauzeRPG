@@ -1,0 +1,235 @@
+﻿2025-02-03 04:19:52.699 [Debug] 10409 - An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration added for 'Core:UseMemoryCache', configuration added for 'Core:EnableSensitiveDataLogging', configuration added for 'Core:EnableDetailedErrors', configuration added for 'Core:EnableThreadSafetyChecks', configuration added for 'Core:ConfigureWarnings', configuration added for 'Core:ReplaceService:Microsoft.EntityFrameworkCore.Infrastructure.IModelCacheKeyFactory', configuration added for 'Sqlite'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.392 [Warn] 10400 - Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'AnimationBase.Lower#AnimationLayer.AnimationBaseId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'AnimationBase.Upper#AnimationLayer.AnimationBaseId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'ConsumableData.ItemBaseId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'EquipmentProperties.StatRange_AbilityPower#ItemRange.EquipmentPropertiesDescriptorId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'EquipmentProperties.StatRange_Attack#ItemRange.EquipmentPropertiesDescriptorId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'EquipmentProperties.StatRange_Defense#ItemRange.EquipmentPropertiesDescriptorId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'EquipmentProperties.StatRange_MagicResist#ItemRange.EquipmentPropertiesDescriptorId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'EquipmentProperties.StatRange_Speed#ItemRange.EquipmentPropertiesDescriptorId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'ResourceBase.Exhausted#ResourceState.ResourceBaseId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'ResourceBase.Initial#ResourceState.ResourceBaseId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'SpellCombatData.SpellBaseId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'SpellDashOpts.SpellBaseId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.424 [Debug] 10600 - The property 'SpellWarpData.SpellBaseId' was created in shadow state because there are no eligible CLR members with a matching name.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:53.691 [Debug] 10403 - Entity Framework Core 7.0.11 initialized 'SqliteGameContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.11' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.065 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.073 [Debug] 20006 - Created DbConnection. (7ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.075 [Debug] 20000 - Opening connection to database 'main' on server 'resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.086 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.091 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.094 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\gamedata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.099 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.100 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.100 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.104 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (3ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.106 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (6ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.106 [Debug] 20000 - Opening connection to database 'main' on server 'resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.113 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.118 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.132 [Info] 20101 - Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.134 [Debug] 20002 - Closing connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.137 [Debug] 20003 - Closed connection to database 'main' on server 'resources\gamedata.db' (2ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.146 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.146 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.146 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.146 [Debug] 20000 - Opening connection to database 'main' on server 'resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.147 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.147 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.148 [Info] 20101 - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.152 [Debug] 20301 - Closing data reader to 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.153 [Debug] 20300 - A data reader for 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db' is being disposed after spending 3ms reading results.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.154 [Debug] 20002 - Closing connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.154 [Debug] 20003 - Closed connection to database 'main' on server 'resources\gamedata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.182 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.182 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.182 [Debug] 20000 - Opening connection to database 'main' on server 'resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\gamedata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20000 - Opening connection to database 'main' on server 'resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20002 - Closing connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20003 - Closed connection to database 'main' on server 'resources\gamedata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.183 [Debug] 20000 - Opening connection to database 'main' on server 'resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.184 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.184 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.184 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.184 [Debug] 20301 - Closing data reader to 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.184 [Debug] 20300 - A data reader for 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.184 [Debug] 20002 - Closing connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.184 [Debug] 20003 - Closed connection to database 'main' on server 'resources\gamedata.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.312 [Debug] 10407 - 'SqliteGameContext' disposed.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.312 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\gamedata.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:19:54.312 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\gamedata.db' (0ms).
+
+--------------------------------------------------------------------------------

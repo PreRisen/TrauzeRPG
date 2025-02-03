@@ -1,0 +1,190 @@
+﻿2025-02-03 04:21:15.038 [Debug] 10403 - Entity Framework Core 7.0.11 initialized 'SqliteLoggingContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.11' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.156 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.156 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.157 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.158 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.158 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.159 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.159 [Debug] 20002 - Closing connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.159 [Debug] 20003 - Closed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Debug] 20301 - Closing data reader to 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Debug] 20300 - A data reader for 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.160 [Debug] 20002 - Closing connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.161 [Debug] 20003 - Closed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.289 [Debug] 20005 - Creating DbConnection.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.289 [Debug] 20006 - Created DbConnection. (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.289 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20103 - Creating DbCommand for 'ExecuteScalar'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20104 - Created DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20106 - Initialized DbCommand for 'ExecuteScalar' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20002 - Closing connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20003 - Closed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20103 - Creating DbCommand for 'ExecuteReader'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20104 - Created DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20106 - Initialized DbCommand for 'ExecuteReader' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20000 - Opening connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20001 - Opened connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20100 - Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Info] 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20301 - Closing data reader to 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20300 - A data reader for 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db' is being disposed after spending 0ms reading results.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20002 - Closing connection to database 'main' on server 'C:\Users\avery\OneDrive\Documents\GitHub\TrauzeRPG\SERVER CLIENT\Server\resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.290 [Debug] 20003 - Closed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.291 [Debug] 10407 - 'SqliteLoggingContext' disposed.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.291 [Debug] 20007 - Disposing connection to database 'main' on server 'resources\logging.db'.
+
+--------------------------------------------------------------------------------
+2025-02-03 04:21:15.291 [Debug] 20008 - Disposed connection to database 'main' on server 'resources\logging.db' (0ms).
+
+--------------------------------------------------------------------------------
