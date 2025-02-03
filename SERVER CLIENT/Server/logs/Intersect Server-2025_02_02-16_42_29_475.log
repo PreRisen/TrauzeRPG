@@ -1,0 +1,69 @@
+﻿2025-02-02 23:42:30.898 [Info] Discovered service type: Intersect.Plugins.PluginService
+
+--------------------------------------------------------------------------------
+2025-02-02 23:42:30.899 [Info] Discovered service type: Intersect.Server.Core.LogicService
+
+--------------------------------------------------------------------------------
+2025-02-02 23:42:30.899 [Info] Discovered service type: Intersect.Server.Web.ApiService
+
+--------------------------------------------------------------------------------
+2025-02-02 23:42:30.899 [Info] Discovered service type: Intersect.Server.Core.ConsoleService
+
+--------------------------------------------------------------------------------
+2025-02-02 23:42:30.912 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2025-02-02 23:42:30.912 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+InvalidPortCheckerResponse
+
+--------------------------------------------------------------------------------
+Port 5400 is not open, trying UPnP...
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Succeeded.
+
+--------------------------------------------------------------------------------
+Failed to automatically port forward UDP port 5400 using UPnP. UPnP might be disabled in your router settings, or this port might already be forwarded.
+
+--------------------------------------------------------------------------------
+2025-02-02 23:42:34.662 [Warn] UPnP Could Not Open UDP Port 5400
+System.InvalidOperationException: The response is invalid: GetSpecificPortMappingEntryResponse
+   at Open.Nat.ResponseMessageBase.GetNode()
+   at Open.Nat.GetPortMappingEntryResponseMessage..ctor(XmlDocument response, String serviceType, Boolean genericMapping)
+   at Open.Nat.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort)
+   at Intersect.Server.Networking.Helpers.UpnP.OpenServerPort(Int32 port, Protocol protocol) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server\Networking\Helpers\UPnP.cs:line 55
+
+--------------------------------------------------------------------------------
+UPnP failed. Please verify the server status manually using a client.
+
+--------------------------------------------------------------------------------
+2025-02-02 23:42:34.687 [Info] Unpacking appsettings...
+
+--------------------------------------------------------------------------------
+2025-02-02 23:42:40.089 [Info] Connection approved [abf5eb0c-0916-4fda-9b97-3d2339edacc6].
+
+--------------------------------------------------------------------------------
+2025-02-02 23:42:40.090 [Info] Connected [abf5eb0c-0916-4fda-9b97-3d2339edacc6].
+
+--------------------------------------------------------------------------------
+2025-02-02 23:45:16.807 [Info] Connection approved [e6855f51-e77f-45b0-90cc-a012891e2d9d].
+
+--------------------------------------------------------------------------------
+2025-02-02 23:45:16.807 [Info] Connected [e6855f51-e77f-45b0-90cc-a012891e2d9d].
+
+--------------------------------------------------------------------------------
+2025-02-03 00:03:36.689 [Warn] Successfully removed 20 items from slot Intersect.Server.Database.PlayerData.Players.InventorySlot for player fe3cabe7-ecf2-441a-9f8c-9d8655214502 at BuyItem(int slot, int amount)
+
+--------------------------------------------------------------------------------
+2025-02-03 00:23:20.036 [Warn] Successfully removed 35 items from slot Intersect.Server.Database.PlayerData.Players.InventorySlot for player fe3cabe7-ecf2-441a-9f8c-9d8655214502 at BuyItem(int slot, int amount)
+
+--------------------------------------------------------------------------------
+2025-02-03 00:54:00.544 [Info] Disconnected [abf5eb0c-0916-4fda-9b97-3d2339edacc6].
+
+--------------------------------------------------------------------------------
+2025-02-03 00:54:01.450 [Info] Disconnected [e6855f51-e77f-45b0-90cc-a012891e2d9d].
+
+--------------------------------------------------------------------------------
