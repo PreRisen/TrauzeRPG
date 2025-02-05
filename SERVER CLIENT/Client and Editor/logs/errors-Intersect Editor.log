@@ -8,3 +8,13 @@
 
 
 --------------------------------------------------------------------------------
+2025-02-05 03:29:15.374 [Error] IOException: The process cannot access the file 'E:\2DMMORPG\TrauzeRPG\SERVER CLIENT\Client and Editor\sqlite3.dll' because it is being used by another process.
+    Stack:    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Intersect.Editor.Core.Program.Main() in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Editor\Core\Program.cs:line 52
+
+
+--------------------------------------------------------------------------------

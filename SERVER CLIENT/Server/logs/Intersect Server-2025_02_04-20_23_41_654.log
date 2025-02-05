@@ -1,0 +1,54 @@
+﻿2025-02-05 03:23:43.116 [Info] Discovered service type: Intersect.Plugins.PluginService
+
+--------------------------------------------------------------------------------
+2025-02-05 03:23:43.117 [Info] Discovered service type: Intersect.Server.Core.LogicService
+
+--------------------------------------------------------------------------------
+2025-02-05 03:23:43.117 [Info] Discovered service type: Intersect.Server.Web.ApiService
+
+--------------------------------------------------------------------------------
+2025-02-05 03:23:43.117 [Info] Discovered service type: Intersect.Server.Core.ConsoleService
+
+--------------------------------------------------------------------------------
+2025-02-05 03:23:43.130 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2025-02-05 03:23:43.130 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+InvalidPortCheckerResponse
+
+--------------------------------------------------------------------------------
+Port 5400 is not open, trying UPnP...
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Succeeded.
+
+--------------------------------------------------------------------------------
+Failed to automatically port forward UDP port 5400 using UPnP. UPnP might be disabled in your router settings, or this port might already be forwarded.
+
+--------------------------------------------------------------------------------
+2025-02-05 03:23:46.817 [Warn] UPnP Could Not Open UDP Port 5400
+System.InvalidOperationException: The response is invalid: GetSpecificPortMappingEntryResponse
+   at Open.Nat.ResponseMessageBase.GetNode()
+   at Open.Nat.GetPortMappingEntryResponseMessage..ctor(XmlDocument response, String serviceType, Boolean genericMapping)
+   at Open.Nat.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort)
+   at Intersect.Server.Networking.Helpers.UpnP.OpenServerPort(Int32 port, Protocol protocol) in D:\a\Intersect-Engine\Intersect-Engine\Intersect.Server\Networking\Helpers\UPnP.cs:line 55
+
+--------------------------------------------------------------------------------
+UPnP failed. Please verify the server status manually using a client.
+
+--------------------------------------------------------------------------------
+2025-02-05 03:23:46.841 [Info] Unpacking appsettings...
+
+--------------------------------------------------------------------------------
+2025-02-05 03:26:11.609 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2025-02-05 03:26:11.610 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2025-02-05 03:26:11.610 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------

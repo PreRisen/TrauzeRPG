@@ -6,7 +6,7 @@
   "AnimatedSprites": [],
   "ValidPasswordResetTimeMinutes": 30,
   "MaximumLoggedinUsers": 50,
-  "UPnP": true,
+  "UPnP": false,
   "Chat": {
     "MaxChatLength": 120,
     "MinIntervalBetweenChats": 400,
