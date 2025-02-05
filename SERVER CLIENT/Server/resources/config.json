@@ -171,7 +171,7 @@
     "MaximumMembers": 4,
     "SharedXpRange": 40,
     "NpcDeathCommonEventStartRange": 0,
-    "BonusExperiencePercentPerMember": 0.0
+    "BonusExperiencePercentPerMember": 5.0
   },
   "Security": {
     "IpBlacklist": [],
