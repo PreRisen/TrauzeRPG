@@ -1,5 +1,3 @@
-Tiers of Armor from Ore / monster drops.
-
 Certain monster drops can be crafted into unique gear.
 
 Tiers of Potions.

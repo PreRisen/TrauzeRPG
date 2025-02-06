@@ -1,0 +1,127 @@
+I. Animations
+
+1. You'll need three different animations to show quest progress:
+
+   - To show that there is a quest available
+
+   - To show that there is a quest in progress
+
+   - To show that there is a completed quest to turn in
+
+You can use these animations that I've created. If you're going to make your own, make sure that there is suitable offset provided in the graphic, so that the animation appears above the event.
+
+ 
+
+2. Once you have the three .pngs in your animation folder, open up the Intersect Editor and add them as three separate animations. Follow the image below if you're unfamiliar with how to do so.
+
+yupexTG.png
+
+ 
+
+Repeat this process until you have three separate animations.
+
+ 
+
+II. Quest
+
+1. For this example quest, we're only going to have two steps. The first step will be to interact with a nearby event, and the second step will be to return to the quest giver to complete the quest. I made these both event driven tasks in the quest editor. You can include any amount of tasks in your quest, as long as you have all of the stuff you do before you turn in the quest, and then a task to go back and turn the quest in.
+
+03D6sB3.png
+
+ 
+
+III. Quest Giver Event
+
+1. For the quest giver event, we're going to utilize two key features: pages and spawn/execution conditions.
+
+Place an event on the map where you want the quest giver to be.
+
+SVdgTr3.png
+
+ 
+
+2.  In the event editor, section 1 shows your options for pages. 2 will show what page you have selected and what pages are available, and 3 is where you edit spawn conditions for your event.
+
+lkuX9I0.png
+
+ 
+
+3. Go to Entity Options and double click the empty gray box to select the sprite or tileset piece for your event. I chose JC's sprite for mine. Make sure the Animation right below is set to None.
+
+GgrC9wc.png
+
+ 
+
+4. Go back to the top where your page options are and press "Copy Page".
+
+5. Create three new pages.
+
+6. Go to each page, and press "Paste Page" on each page. This will leave you with four pages, each with your selected sprite/tileset piece with no animation.
+
+9ocJIZM.png
+
+ 
+
+IV. Page 1, the available quest page
+
+1. Each page acts as a different state of the event. This first page will be the quest giver NPC before you start the quest, and the quest is available to be started.
+
+2. Set the Animation to the yellow exclamation point. This signifies that this NPC has a quest.
+
+3. Click on the Spawn/Execution Commands tab and create a new list.
+
+4. Add a condition to the list that the player Can Start Quest and select your quest. This will cause this page to activate when the player meets the requirements to start the quest.
+
+5. Create the dialog and quest start commands for your quest. Mine simply gives two options; that the player is interested in a quest, or nothing. Be sure to include the Start Quest command.
+
+1ybCcQg.png
+
+ 
+
+IV. Page 2, the quest-in-progress page
+
+1. Go to page 2 of the event.
+
+2. Set the Animation to the grey question mark. This symbolizes that the quest has been started, but it's still in progress.
+
+3. Click on the Spawn/Execution Commands tab and create a new list.
+
+4. Add a condition to the list for Quest in Progress, select your quest, and then select Before task, and pick the last task of the quest. This will make it so as long as you still have stuff to do in the quest, the question mark will stay gray.
+
+5. You can also add a different set of commands to this page. In this state, the quest has been started, but not completed. You could have, for example, the NPC explain what the player has to do, or ask how their progress is going, etc. Separating the event into pages allows for more dynamic and realistic conversation, since the NPC can do different things based on it's current state.
+
+ 
+
+V. Page 3, the completed tasks page
+
+1. Go to page 3 of the event.
+
+2. Set the Animation to the yellow question mark. This symbolizes that all steps of the quest have been completed and it is ready to be turned in.
+
+3. Click on the Spawn/Execution Commands tab and create a new list.
+
+4. Add a condition to the list for Quest in Progress, select your quest, and then select On Task, and then select the last task of your quest (which should be to turn in the quest/return to the NPC who gave you the quest).
+
+5. Go to the Commands section and setup your quest turnin dialogue. Here, I just have the NPC congratulate the player on doing well, and then add Complete Task command to complete the last task of the quest, which completes the quest entirely.
+
+OJ6HI2v.png
+
+ 
+
+VI. Page 4, the post-quest page
+
+Note: if you want the quest to be repeatable, you can just delete this page and skip this step.
+
+1. Go to page 4 of the event.
+
+2. Keep the Animation set at none. This will tell the player that there isn't a quest here for them anymore, since they already completed it.
+
+3. Click on the Spawn/Execution Commands tab and create a new list.
+
+4. Add a condition to the list for Quest Completed and select your quest. This will cause this page to activate only when the quest has been completed.
+
+5. Go to Commands and setup dialogue for the NPC's post-quest completion state. You can have the NPC do whatever, but also be under the assumption that they have done this quest for them. They can be nicer to the player, thankful, give them access to a shop they previously didn't have access to — whatever.
+
+ 
+
+If you followed all these steps correctly, your event should work something like this!
